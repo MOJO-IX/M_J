@@ -1,5 +1,7 @@
 import random
 
-d1, d2 = random.randint(1,7),random.randint(1,7)
+def dice():
+    d=random.randint(1,6)
+    print(d)
 
-print(d1, d2)
+dice()
